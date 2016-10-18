@@ -1,0 +1,5 @@
+mysql> select type from Entry where type NOT IN('other');
+
+mysql> select id from Entry where type IN('home','work');
+
+mysql> select id from Entry where subtype IN('phone');
