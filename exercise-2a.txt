@@ -1,0 +1,7 @@
+mysql> select subtype IN('phone'), contentLineOne  from Entry where contentLineOne LIKE '_3%';
+
+select *
+from Entry
+where type = 'home' AND subtype = 'phone' AND contentLineOne NOT LIKE '%5%';
+
+mysql> select * from Entry where type = 'work' AND subtype = 'phone' AND contentLineOne LIKE '_-%';
