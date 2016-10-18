@@ -1,0 +1,5 @@
+select id from Account;
+
+select id from AddressBook;
+
+select id from Entry;
