@@ -1,0 +1,11 @@
+select birthday from Entry where birthday < '1982-02-12';
+
+select birthday from Entry where birthday >= '1965-01-01';
+
+mysql> select MAX(birthday) from Entry;
++---------------------+
+| MAX(birthday)       |
++---------------------+
+| 2000-08-31 15:50:18 |
++---------------------+
+1 row in set (0.00 sec)
