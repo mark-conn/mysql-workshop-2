@@ -1,0 +1,15 @@
+UPDATE Account
+SET email='MagicMikeJohnson@gmail.com'
+WHERE id=1;
+
+UPDATE AddressBook
+SET name="Mr. Micheal Johnson"
+WHERE accountId =1;
+
+UPDATE Entry
+SET firstName = CASE id
+WHEN 1 THEN "Dingus"
+WHEN 2 THEN "Dangus"
+WHEN 3 THEN "Quall"
+END
+WHERE id IN(1,2,3);
